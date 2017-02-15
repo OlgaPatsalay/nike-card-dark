@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'MuseoSansRounded';
+    src: url('../fonts/Museo Sans W01 Rounded 100.woff2') format('woff2'),
+    url('../fonts/Museo Sans W01 Rounded 100.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+div {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+input:focus, select:focus {
+    outline: none;
+}
+.popup-window {
+    background: url(../images/main-bg.png) no-repeat;
+    width: 800px;
+    min-height: 600px;
+    padding: 109px 52px 100px 63px;
+    font-family: MuseoSansRounded, sans-serif;
+    color: rgba(255, 255, 255, .54);
+    margin-right: auto;
+    margin-left: auto;
+}
+.product-card {
+    background-color: #111a28;
+    border-radius: 10px;
+    width: 686px;
+    min-height: 391px;
+    position: relative;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 65px 0 rgba(0, 0, 0, 0.82);
+       -moz-box-shadow: 0 0 65px 0 rgba(0, 0, 0, 0.82);
+            box-shadow: 0 0 65px 0 rgba(0, 0, 0, 0.82);
+}
+.product-card__logo {
+    position: absolute;
+    top: 24px;
+    left: 21px;
+}
+.product-card__slider {
+    float: left;
+    width: 423px;
+    margin-top: 60px;
+    padding: 46px 46px 0 16px;
+}
+.product-info {
+    float: right;
+    width: 223px;
+    margin-top: 57px;
+}
+.product-info__name {
+    font-size: 24px;
+    line-height: 26px;
+    text-align: left;
+    margin: 0;
+}
+.form-to-buy__size,
+.form-to-buy__quantity,
+.form-to-buy__submit {
+    border: 1px solid rgba(255, 255, 255, .26);
+    background-color: transparent;
+    cursor: pointer;
+}
+.product-info__descr {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .54);
+    line-height: 26px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+}
+.slider__control {
+    text-align: center;
+    padding: 0;
+    margin: 66px 0 0 0;
+}
+.slider__toggle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    margin: 0 3px;
+}
+.slider__toggle--blue {
+    background-color: #29e3ea;
+}
+.slider__toggle--grey {
+    background-color: #1f273f;
+}
+.slider__toggle--red {
+    background-color: #ed3333;
+}
+.slider__toggle--white {
+    background-color: #ffffff;
+}
+.form-to-buy__size,
+.form-to-buy__quantity {
+    width: 67px;
+    height: 30px;
+}
+.form-to-buy__submit {
+    background-color: rgba(255, 255, 255, .26);
+    margin-top: 29px;
+    width: 182px;
+    height: 38px;
+}
+.form-to-buy__size option,
+.form-to-buy__quantity option {
+    background-color: #1f273f;
+    color: silver;
+}
+.product-info__ratio {
+    width: 60px;
+    height: 12px;
+    background: url("../images/star-grey.png") repeat-x;
+    margin: 25px 0;
+}
+.ratio__yellow-stars {
+    height: 12px;
+    background: url("../images/star-yellow.png");
+}
